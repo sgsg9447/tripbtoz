@@ -64,6 +64,54 @@ uuid
 ## 7. 구현과정 
 - [자세히 보기](https://velog.io/@sgsg9447/React-TS-Calendar-Without-Library)
 
-
+## 8. 디렉토리구조
+```
+src
+ ┣ api
+ ┃ ┗ api.ts
+ ┣ components
+ ┃ ┣ calendar
+ ┃ ┃ ┣ Body.tsx
+ ┃ ┃ ┣ Calendar.tsx
+ ┃ ┃ ┣ Dates.tsx
+ ┃ ┃ ┗ Head.tsx
+ ┃ ┣ common
+ ┃ ┃ ┣ Loading.tsx
+ ┃ ┃ ┣ NavigationBar.tsx
+ ┃ ┃ ┗ SearchBar.tsx
+ ┃ ┣ hotelList
+ ┃ ┃ ┣ HotelItem.tsx
+ ┃ ┃ ┗ HotelList.tsx
+ ┃ ┗ modal
+ ┃ ┃ ┣ CalendarModal.tsx
+ ┃ ┃ ┗ CountModal.tsx
+ ┣ hooks
+ ┃ ┣ useDatabase.ts
+ ┃ ┣ useFilter.tsx
+ ┃ ┣ useInfiniteScroll.tsx
+ ┃ ┗ useLocalStorage.ts
+ ┣ pages
+ ┃ ┣ Hotel.tsx
+ ┃ ┣ Landing.tsx
+ ┃ ┗ Reservation.tsx
+ ┣ router
+ ┃ ┗ Router.tsx
+ ┣ styles
+ ┃ ┣ GlobalStyles.tsx
+ ┃ ┣ Hotel.style.tsx
+ ┃ ┣ HotelItem.style.tsx
+ ┃ ┗ HotelList.style.tsx
+ ┣ types
+ ┃ ┣ databaseType.ts
+ ┃ ┣ localStorageType.ts
+ ┃ ┗ queryType.ts
+ ┣ utils
+ ┃ ┣ dateUtils.ts
+ ┃ ┗ infiniteScroll.ts
+ ┣ App.tsx
+ ┣ index.tsx
+ ┣ react-app-env.d.ts
+ ┗ setupTests.ts
+```
 
 
